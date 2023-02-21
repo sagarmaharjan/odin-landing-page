@@ -93,3 +93,53 @@ body {
 	background-color: #3882f6;
 	border-color: 3882f6;
 }
+
+.about {
+	text-align: center;
+	padding: 80px 0;
+	color: #1f2937;
+}
+
+.about__container {
+	flex-wrap: wrap;
+}
+
+.about h3 {
+	flex: auto;
+	min-width: 100%;
+	font-size: 36px;
+	font-weight: bolder;
+	margin-bottom: 50px;
+}
+
+.about__wrapper {
+	display: flex;
+	gap: 30px;
+}
+
+.about-item {
+	flex: 1;
+}
+
+.about-item__figure {
+	height: 160px;
+	margin-bottom: 15px;
+}
+
+.about-item__figure img {
+	height: 100%;
+}
+
+.about-item__title {
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.about-item__text {
+	font-size: 16px;
+}
+
+.testimonial {
+	background-color: #e5e7eb;
+}
