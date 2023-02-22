@@ -20,6 +20,7 @@ body {
 	font-size: 14px;
 	line-height: 1.2;
 	scroll-behavior: smooth;
+	color: #1f2937;
 }
 
 .container {
@@ -81,15 +82,15 @@ body {
 }
 
 .button {
-	border: 1px solid #000;
+	border: 1px solid #fff;
 	background-color: transparent;
 	border-radius: 5px;
 	padding: 10px 20px;
 	cursor: pointer;
+	color: #fff;
 }
 
-.button-primary {
-	color: #ffff;
+.button--primary {
 	background-color: #3882f6;
 	border-color: 3882f6;
 }
@@ -97,7 +98,6 @@ body {
 .about {
 	text-align: center;
 	padding: 80px 0;
-	color: #1f2937;
 }
 
 .about__container {
@@ -141,5 +141,54 @@ body {
 }
 
 .testimonial {
+	padding: 100px 0;
 	background-color: #e5e7eb;
+}
+
+.testimonial__text {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.testimonial__by {
+	font-weight: 600;
+	text-align: right;
+	margin-right: 20px;
+	font-size: 16px;
+}
+
+.contact {
+	padding: 100px 0;
+	color: #fff;
+}
+
+.contact__banner {
+	display: flex;
+	width: 100%;
+	background-color: #3882f6;
+	border-radius: 10px;
+	align-items: center;
+	justify-content: space-around;
+	padding: 50px 0;
+}
+
+.contact__title {
+	font-size: 20px;
+}
+
+.contact__text {
+	font-size: 16px;
+}
+
+.footer {
+	background-color: #1f2937;
+	color: #fff;
+	text-align: center;
+	padding: 25px 0;
+}
+
+.footer small {
+	font-size: 16px;
 }
